@@ -1,0 +1,35 @@
+.banner {
+  background: url(../../assets/Banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-color: var(--bg-color);
+  position: relative;
+}
+
+.banner__title {
+  color: var(--Black, #000);
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 115.7%;
+  letter-spacing: -1.14px;
+  padding-top: 150px;
+}
+
+.banner__details {
+  color: #b070ff;
+  font-family: var(--HK-Grotesk);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 119.7%;
+  opacity: 0.8;
+  padding-top: 22px;
+}
+
+.Wave__img {
+  position: absolute;
+  bottom: 0%;
+  overflow: hidden;
+  width: 100%;
+}
