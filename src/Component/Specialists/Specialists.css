@@ -1,1 +1,104 @@
+.specialists {
+  padding: 100px 0px 122px;
+  background: url(../../assets/Background.png);
+  background-color: var(--bg-color);
+}
 
+.specialistsWraper {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  flex-wrap: wrap;
+  row-gap: 200px;
+}
+
+.card {
+  background-color: var(--White, #fff);
+  width: 406px;
+  height: 450px;
+  text-align: center;
+  position: relative;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  box-shadow: 0px 86px 114px 0px rgba(124, 20, 253, 0.14);
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  width: 175px;
+  height: 177px;
+  border-radius: 50%;
+  border: 8px solid var(--Purple);
+  top: -18.5%;
+  left: 27.5%;
+}
+
+.men__img {
+  position: absolute;
+  top: -14%;
+  left: 32%;
+}
+
+.sp__title {
+  color: var(--Black, #000);
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 170px;
+}
+
+.sp__details {
+  color: var(--Black, #000);
+  font-family: var(--HK-Grotesk);
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.sp__email {
+  color: var(--Purple, #b070ff);
+  font-family: var(--HK-Grotesk);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  padding: 14px 20px 30px 0px;
+}
+
+.sp__btn {
+  width: 317px;
+  padding: 16px 0;
+  color: var(--White, #fff);
+  background: var(--Purple, #b070ff);
+  font-family: var(--HK-Grotesk);
+  font-size: 19px;
+  font-weight: 700;
+  border: 1px solid var(--Purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  margin-left: 44px;
+  cursor: pointer;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.sp__btn:hover {
+  color: var(--Purple);
+  background-color: transparent;
+}
+
+.right__arrow {
+  font-size: 23px;
+}

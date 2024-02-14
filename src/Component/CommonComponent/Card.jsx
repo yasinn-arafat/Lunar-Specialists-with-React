@@ -2,6 +2,8 @@ import React from "react";
 
 const Card = ({
   className,
+  MenImg,
+  card__img,
   card__title,
   card__details,
   card__email,
@@ -13,6 +15,12 @@ const Card = ({
   return (
     <>
       <div className={className}>
+        <div>
+          <picture>
+            <img src={MenImg} alt={MenImg} className={card__img} />
+          </picture>
+        </div>
+
         <h3 className={card__title}>
           {cardTitle ? cardTitle : `Tim Haldorsson`}
         </h3>
