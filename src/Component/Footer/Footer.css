@@ -10,7 +10,7 @@
 .footerWraper {
   display: flex;
   justify-content: space-between;
-  padding-top: 165px;
+  padding-top: 164px;
 }
 
 .footer__details {
